@@ -67,7 +67,7 @@ In this project you get:
 1. Edit the build.gradle file and add any additional dependencies if needed.
 2. Edit XFileUtilsAddin.idl for your new functions and parameters.
 3. Edit FileUtilsAddinImpl.groovy for your new functions and parameters.
-3. Edit CalcAddins.xcu for your new functions and parameters.
+4. Edit CalcAddins.xcu for your new functions and parameters.
 
 ## Building the Extension
 - Clean and build the extension with:
