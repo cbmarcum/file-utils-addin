@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="CalcAddIns" oor:package="org.openoffice.Office">
+    <node oor:name="AddInInfo">
+        <node oor:name="net.codebuilders.FileUtilsAddin" oor:op="replace">
+            <node oor:name="AddInFunctions">
+                
+                <node oor:name="fileBasename" oor:op="replace">
+                    <prop oor:name="DisplayName">
+                        <value xml:lang="en">fileBasename</value>
+                    </prop>
+                    <prop oor:name="Description">
+                        <value>
+                            Returns the basename portion of a filename including path.
+                        </value>
+                    </prop>
+                    <prop oor:name="Category">
+                        <value>Add-In</value>
+                    </prop>
+                    <prop oor:name="CompatibilityName">
+                        <value/>
+                    </prop>
+                    <node oor:name="Parameters">
+                        <node oor:name="parameter0" oor:op="replace">
+                            <prop oor:name="DisplayName">
+                                <value xml:lang="en">parameter0</value>
+                            </prop>
+                            <prop oor:name="Description">
+                                <value/>
+                            </prop>
+                        </node>
+                    </node>
+                </node>
+               
+                <node oor:name="fileExtension" oor:op="replace">
+                    <prop oor:name="DisplayName">
+                        <value xml:lang="en">fileExtension</value>
+                    </prop>
+                    <prop oor:name="Description">
+                        <value>
+                            Returns the extension portion of a filename including path.
+                        </value>
+                    </prop>
+                    <prop oor:name="Category">
+                        <value>Add-In</value>
+                    </prop>
+                    <prop oor:name="CompatibilityName">
+                        <value/>
+                    </prop>
+                    <node oor:name="Parameters">
+                        <node oor:name="parameter0" oor:op="replace">
+                            <prop oor:name="DisplayName">
+                                <value xml:lang="en">parameter0</value>
+                            </prop>
+                            <prop oor:name="Description">
+                                <value>
+
+                                </value>
+                            </prop>
+                        </node>
+                    </node>
+                </node>
+
+                <node oor:name="filePath" oor:op="replace">
+                    <prop oor:name="DisplayName">
+                        <value xml:lang="en">filePath</value>
+                    </prop>
+                    <prop oor:name="Description">
+                        <value>
+                            Returns the path portion of a filename including path.
+                        </value>
+                    </prop>
+                    <prop oor:name="Category">
+                        <value>Add-In</value>
+                    </prop>
+                    <prop oor:name="CompatibilityName">
+                        <value/>
+                    </prop>
+                    <node oor:name="Parameters">
+                        <node oor:name="parameter0" oor:op="replace">
+                            <prop oor:name="DisplayName">
+                                <value xml:lang="en">parameter0</value>
+                            </prop>
+                            <prop oor:name="Description">
+                                <value/>
+                            </prop>
+                        </node>
+                    </node>
+                </node>
+                
+            </node>
+        </node>
+    </node>
+</oor:component-data>

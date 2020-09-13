@@ -1,0 +1,17 @@
+/*
+ * FileUtilsAddin.idl
+ *
+ * Created on 2020.07.31 - 18:17:08
+ *
+ */
+
+#ifndef _net_codebuilders_FileUtilsAddin_
+#define _net_codebuilders_FileUtilsAddin_
+
+#include "XFileUtilsAddin.idl"
+
+module net { module codebuilders {
+    service FileUtilsAddin : XFileUtilsAddin;
+}; };
+
+#endif

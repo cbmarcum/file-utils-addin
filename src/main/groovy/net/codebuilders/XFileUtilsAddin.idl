@@ -1,0 +1,29 @@
+/*
+ * XFileUtilsAddin.idl
+ *
+ * Created on 2020.07.31 - 18:17:08
+ *
+ */
+
+#ifndef _net_codebuilders_XFileUtilsAddin_
+#define _net_codebuilders_XFileUtilsAddin_
+
+#include <com/sun/star/lang/XLocalizable.idl>
+
+#include <com/sun/star/uno/XInterface.idl>
+
+// TODO: fix these for function names and parameters
+module net { module codebuilders {
+    interface XFileUtilsAddin {
+        /// used to set an add-in locale for formatting reasons for example
+        [optional] interface ::com::sun::star::lang::XLocalizable;
+
+        string fileBasename([in] string parameter0);
+
+        string fileExtension([in] string parameter0);
+
+        string filePath([in] string parameter0);
+    };
+}; };
+
+#endif

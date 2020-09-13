@@ -1,0 +1,1 @@
+File Utilities Calc Addin is an extension to add file utility functions to Apache OpenOffice Calc.
