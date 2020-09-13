@@ -19,9 +19,7 @@ module net { module codebuilders {
         [optional] interface ::com::sun::star::lang::XLocalizable;
 
         string fileBasename([in] string parameter0);
-
         string fileExtension([in] string parameter0);
-
         string filePath([in] string parameter0);
     };
 }; };
