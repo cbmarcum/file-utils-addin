@@ -5,6 +5,7 @@ import com.sun.star.lib.uno.helper.Factory
 import com.sun.star.lang.XSingleComponentFactory
 import com.sun.star.registry.XRegistryKey
 import com.sun.star.lib.uno.helper.WeakBase
+import org.apache.commons.io.FilenameUtils
 
 @groovy.transform.CompileStatic
 final class FileUtilsAddinImpl extends WeakBase
